@@ -1,0 +1,10 @@
+{
+  "name": "avipatel-message-web",
+  "domain": "avipatel-messages.xf.mkrs.link",
+  "port": 5000,
+  "env": {
+    "APP_ENV": "PRODUCTION",
+    "POSTGRES_HOSTNAME": "avipatel-message-database",
+    "POSTGRES_PASSWORD": "@avipatel-postgres-password"
+  }
+}

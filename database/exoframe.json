@@ -1,0 +1,10 @@
+{
+    "name": "avipatel-message-database",
+    "domain": false,
+    "hostname": "avipatel-message-database",
+    "image": "postgres:12",
+    "env": {
+        "POSTGRES_PASSWORD": "@avipatel-postgres-password"
+    },
+    "volumes": ["avipatel_message_database_volume:/var/lib/postgresql/data"]
+}
